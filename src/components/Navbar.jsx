@@ -8,7 +8,7 @@ import { useNavigate } from 'react-router-dom';
 const Navbar = ({count}) => {
   const navigate=useNavigate();
   function clickHandler(){
-    navigate('/cart');
+    navigate('/Cart');
   }
 
   return (
