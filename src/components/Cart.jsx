@@ -6,7 +6,7 @@ const Cart = () => {
   }
   return (
     <>
-      <div style={{ marginTop: '50px', textAlign: 'center' }}>
+      <div style={{ marginTop: '50px', textAlign: 'center',color:'black' }}>
         <h1>Your Shopping Cart</h1>
         <p>This is the cart page content.</p>
         <button onClick={hello}>Click me</button>
